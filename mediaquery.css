@@ -1,0 +1,176 @@
+
+@media (max-width:822px) {
+    .top-heading .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .top-heading {
+        justify-content: center;
+    }
+
+    .nuno {
+        width: 32%;
+        margin-left: 8px;
+    }
+
+    .videp-background {
+        justify-content: center;
+    }
+
+    .video-wrap {
+        justify-content: center;
+    }
+
+    .video-content {
+        padding: 17rem 1rem;
+    }
+
+    .top-heading3 h1 {
+        font-size: 40px;
+    }
+
+    .top-heading3 a {
+        height: 60px;
+        padding-top: 1rem;
+    }
+
+    .feature-section h3 {
+        justify-content: center;
+        padding-bottom: 5rem;
+    }
+
+    .features-section {
+        height: 65vh;
+        padding-top: 3rem;
+    }
+
+    .features-section .heading-underline {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .features-section-main-icons {
+        border-radius: 55px;
+        width: 48%;
+        height: 45%;
+        font-size: 220%;
+        background-color: #1EBBA3;
+        color: white;
+        border: none;
+    }
+
+    .top-heading5 {
+        height: 50vh;
+    }
+
+    .top-heading5 h4 {
+        padding-top: 11rem;
+    }
+
+    .top-heading5 p {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .portfolio-section {
+        height: 70vh;
+    }
+
+    .pricing-section {
+        height: 70vh;
+    }
+
+    .pricing-section .pricing-section-parent {
+        height: 50vh;
+    }
+
+    .team-section .team-section-parent {
+        height: 100vh;
+    }
+
+    .pricing-section .pricing-section-parent {
+        margin-left: 3rem;
+    }
+
+    .skills-section {
+        height: 50vh;
+    }
+
+    .skills-section h3 {
+        padding-top: 7rem;
+    }
+
+    .client-section {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .client-section-top .client {
+        margin-left: auto;
+    }
+
+    .contact-section {
+        height: 50vh;
+    }
+
+    .contact-section .contact-details {
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 431px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:431px) {
+
+    body{
+        /* overflow-x: hidden; */
+        overflow-y: auto;
+        width: 100%;
+        
+
+    }
+    .top-heading {
+        position: fixed;
+
+    }
+
+    .top-heading .nuno {
+        margin-left: 30%    ;
+    }
+
+    .video-background {
+        height: 120vh;
+        width: 100%;
+        
+        /* overflow-x: hidden; */
+
+    }
+
+    .video-content h1 {
+        font-size: 35px;
+        margin-top: 4rem;
+    }
+
+    .video-content h2 {
+        font-size: 19px;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+
+    .video-content button {
+        font-size: 18px;
+        font-style: normal;
+        font-family: sans-serif;
+        font-weight: 400;
+        line-height: 22px;
+        width: 100%; /* Make it responsive */
+        max-width: 300px; /* Add a max-width if needed */
+        height: 5vh;
+        margin-top: 2rem;
+    }
+}
